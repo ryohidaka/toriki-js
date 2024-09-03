@@ -23,4 +23,12 @@ export class Toriki {
   all(): Menu[] {
     return this.menus;
   }
+
+  /**
+   * 全てのカテゴリを取得する
+   * @returns カテゴリの配列
+   */
+  categories(): string[] {
+    return [...new Set(this.menus.map((menu) => menu.category))];
+  }
 }

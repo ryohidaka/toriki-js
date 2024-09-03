@@ -4,6 +4,9 @@ export function MenuTable() {
   const toriki = new Toriki();
   const menus = toriki.all();
 
+  const categories = toriki.categories();
+  console.log(categories);
+
   return `
     <table class="table table-striped">
       <thead>
