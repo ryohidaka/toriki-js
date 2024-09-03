@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-template",
-  "version": "0.1.0",
-  "description": "Minimum configuration template for publishing packages to npm.",
+  "name": "toriki",
+  "version": "0.0.0",
+  "description": "鳥貴族のメニューを取得するNode.jsライブラリ",
   "keywords": [],
   "type": "module",
   "main": "./dist/index.umd.cjs",
@@ -27,14 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryohidaka/npm-package-template.git"
+    "url": "git+https://github.com/ryohidaka/toriki.git"
   },
   "author": "ryohidaka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryohidaka/npm-package-template/issues"
+    "url": "https://github.com/ryohidaka/toriki/issues"
   },
-  "homepage": "https://github.com/ryohidaka/npm-package-template#readme",
+  "homepage": "https://github.com/ryohidaka/toriki#readme",
   "devDependencies": {
     "@types/node": "^22.5.2",
     "@vitest/coverage-v8": "^2.0.5",
