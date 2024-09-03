@@ -1,11 +1,12 @@
-import { Toriki } from "..";
+import { Toriki, TorikiMenuParams } from "..";
 
-export function MenuTable() {
+type MenuTableProps = {
+  params?: TorikiMenuParams;
+};
+
+export function MenuTable({ params }: MenuTableProps) {
   const toriki = new Toriki();
-  const menus = toriki.all();
-
-  const categories = toriki.categories();
-  console.log(categories);
+  const menus = toriki.all(params);
 
   return `
     <table class="table table-striped">
