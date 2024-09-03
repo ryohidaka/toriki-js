@@ -33,4 +33,13 @@ export class Toriki {
   categories(): string[] {
     return [...new Set(this.menus.map((menu) => menu.category))];
   }
+
+  /**
+   * 指定したIDに対応するメニューを取得する
+   * @param id - メニューのID
+   * @returns 指定したIDのメニュー、見つからない場合はundefined
+   */
+  getById(id: number): Menu | undefined {
+    return this.menus.find((menu) => menu.id === id);
+  }
 }
