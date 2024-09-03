@@ -12,12 +12,22 @@ export default defineConfig({
       fileName: "index",
     },
   },
-  plugins: [dts({ exclude: "src/example/" }), tsconfigPaths()],
+  plugins: [
+    dts({ exclude: ["src/example/", "src/scripts/"] }),
+    tsconfigPaths(),
+  ],
   test: {
     globals: true,
     setupFiles: ["./setup.ts"],
     coverage: {
-      exclude: ["**/**/index.ts", "src/example", "docs", "vite.config.ts"],
+      exclude: [
+        "**/**/index.ts",
+        "src/example",
+        "docs",
+        "vite.config.ts",
+        "dist",
+        "src/scripts/",
+      ],
     },
   },
 });
