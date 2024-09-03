@@ -1,4 +1,4 @@
-import { getFilteredMenus } from "./lib";
+import { getFilteredMenus, getRandomMenus } from "./lib";
 import { MENUS } from "./menus";
 import { Menu, TorikiMenuParams } from "./types";
 
@@ -41,5 +41,22 @@ export class Toriki {
    */
   getById(id: number): Menu | undefined {
     return this.menus.find((menu) => menu.id === id);
+  }
+
+  /**
+   * 指定した総額に対応するランダムなメニューの組み合わせを取得する
+   * @param params - フィルタリングの条件
+   * @param count - 任意の個数 (デフォルト: `10`)
+   * @param allowDuplicates - 重複を許容するかどうかのフラグ (デフォルト: `true`)
+   * @returns ランダムな組み合わせ
+   */
+  random(
+    params?: TorikiMenuParams,
+    count: number = 10,
+    allowDuplicates = true,
+  ): Menu[] {
+    const menus = this.all(params);
+
+    return getRandomMenus(menus, count, allowDuplicates);
   }
 }

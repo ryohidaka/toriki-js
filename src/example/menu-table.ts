@@ -8,6 +8,9 @@ export function MenuTable({ params }: MenuTableProps) {
   const toriki = new Toriki();
   const menus = toriki.all(params);
 
+  const randomMenus = toriki.random();
+  console.log(randomMenus);
+
   return `
     <table class="table table-striped">
       <thead>
