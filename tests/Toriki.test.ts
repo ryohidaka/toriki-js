@@ -65,4 +65,8 @@ describe("Toriki", () => {
     const menu = toriki.getById(9999);
     expect(menu).toBeUndefined();
   });
+
+  it("ランダムな組み合わせを返すこと", () => {
+    toriki.random();
+  });
 });
