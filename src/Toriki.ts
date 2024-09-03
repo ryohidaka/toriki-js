@@ -1,5 +1,6 @@
+import { getFilteredMenus } from "./lib";
 import { MENUS } from "./menus";
-import { Menu } from "./types";
+import { Menu, TorikiMenuParams } from "./types";
 
 /**
  * 鳥貴族のメニューを管理するクラス
@@ -17,11 +18,12 @@ export class Toriki {
   }
 
   /**
-   * 全てのメニューを取得する
-   * @returns メニューの配列
+   * 条件に合う全てのメニューを取得する
+   * @param params - フィルタリングの条件
+   * @returns フィルタリングされたメニューの配列
    */
-  all(): Menu[] {
-    return this.menus;
+  all(params?: TorikiMenuParams): Menu[] {
+    return getFilteredMenus(this.menus, params);
   }
 
   /**

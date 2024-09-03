@@ -13,3 +13,13 @@ export type Menu = {
   // 画像URL
   imageUrl?: string;
 };
+
+/**
+ * メニューの絞り込み条件のパラメータ
+ */
+export type TorikiMenuParams = {
+  // カテゴリ名
+  categories?: string[];
+  // メニュー名
+  name?: string;
+};

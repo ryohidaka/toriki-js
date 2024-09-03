@@ -13,6 +13,11 @@ describe("Toriki", () => {
     toriki.all();
   });
 
+  it("フィルタリングされた全てのメニューを返すこと", () => {
+    const params = { categories: ["貴族焼"] };
+    toriki.all(params);
+  });
+
   it("全てのカテゴリを返すこと", () => {
     const categories = toriki.categories();
     expect(categories).toEqual([
