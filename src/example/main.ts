@@ -2,6 +2,7 @@ import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.ts";
+import { Toriki } from "@/Toriki.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
@@ -22,3 +23,9 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 `;
 
 setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
+
+const toriki = new Toriki();
+
+// メニュー一覧を取得
+const menus = toriki.all();
+console.log(menus);

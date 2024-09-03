@@ -14,6 +14,13 @@ export class Toriki {
    */
   constructor() {
     this.menus = MENUS;
-    console.log(this.menus);
+  }
+
+  /**
+   * 全てのメニューを取得する
+   * @returns メニューの配列
+   */
+  all(): Menu[] {
+    return this.menus;
   }
 }
