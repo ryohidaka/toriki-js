@@ -1,11 +1,9 @@
-import { Toriki } from "@/Toriki.ts";
+import { MenuTable } from "./menu-table.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div></div>
+  <div>
+    <div id="menu-table"></div>
+  </div>
 `;
 
-const toriki = new Toriki();
-
-// メニュー一覧を取得
-const menus = toriki.all();
-console.log(menus);
+document.querySelector<HTMLDivElement>("#menu-table")!.innerHTML = MenuTable();
