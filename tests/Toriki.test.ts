@@ -49,4 +49,20 @@ describe("Toriki", () => {
       "数量限定",
     ]);
   });
+
+  it("IDに対応するメニューを返すこと", () => {
+    const menu = toriki.getById(101);
+    expect(menu).toEqual({
+      id: 101,
+      name: "もも貴族焼(たれ)",
+      category: "貴族焼",
+      imageUrl:
+        "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg",
+    });
+  });
+
+  it("存在しないIDに対してundefinedを返すこと", () => {
+    const menu = toriki.getById(9999);
+    expect(menu).toBeUndefined();
+  });
 });
