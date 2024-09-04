@@ -71,4 +71,9 @@ describe("Toriki", () => {
   it("ランダムな組み合わせを返すこと", () => {
     toriki.random();
   });
+
+  it("1品あたりの税込価格を返すこと", () => {
+    const price = toriki.price();
+    expect(price).toEqual(370);
+  });
 });

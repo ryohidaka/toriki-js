@@ -1,3 +1,4 @@
+import { PRICE_WITH_TAX } from "./constants";
 import { getFilteredMenus, getRandomMenus } from "./lib";
 import { MENUS } from "./menus";
 import { Menu, TorikiMenuParams } from "./types";
@@ -58,5 +59,12 @@ export class Toriki {
     const menus = this.all(params);
 
     return getRandomMenus(menus, count, allowDuplicates);
+  }
+
+  /**
+   * 1品あたりの税込料金
+   */
+  price(): number {
+    return PRICE_WITH_TAX;
   }
 }
