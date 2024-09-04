@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0](https://github.com/ryohidaka/toriki-js/compare/v0.2.0...v0.3.0) (2024-09-04)
+
+
+### Features
+
+* `random()`の返却形式を変更 ([9106d8a](https://github.com/ryohidaka/toriki-js/commit/9106d8ac4de2b10dcf9a128d8a2c4da4dbd0c1c0))
+* 1品あたりの税込価格を返却する(`price()`)を追加 ([b32c122](https://github.com/ryohidaka/toriki-js/commit/b32c122cb7cf3b662cacca459be9366f476ea4b1))
+
 ## [0.2.0](https://github.com/ryohidaka/toriki-js/compare/v0.1.0...v0.2.0) (2024-09-04)
 
 
