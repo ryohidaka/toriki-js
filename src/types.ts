@@ -26,4 +26,12 @@ export type TorikiMenuParams = {
   categories?: string[];
   // メニュー名
   name?: string;
+  // エネルギー (最小)
+  caloriesMin?: number;
+  // エネルギー (最大)
+  caloriesMax?: number;
+  // 食塩相当量 (最小)
+  saltMin?: number;
+  // 食塩相当量 (最大)
+  saltMax?: number;
 };

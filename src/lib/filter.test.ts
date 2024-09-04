@@ -49,6 +49,31 @@ describe("getFilteredMenus", () => {
     expect(result).toEqual([mockMenus[0]]);
   });
 
+  // カロリーフィルタリング
+  it("カロリーフィルタリングのテスト", () => {
+    const params: TorikiMenuParams = { caloriesMin: 200 };
+    const result = getFilteredMenus(mockMenus, params);
+    expect(result).toEqual([mockMenus[0]]);
+  });
+
+  // 塩分フィルタリング
+  it("塩分フィルタリングのテスト", () => {
+    const params: TorikiMenuParams = { saltMax: 2 };
+    const result = getFilteredMenus(mockMenus, params);
+    expect(result).toEqual([mockMenus[0]]);
+  });
+
+  // 塩分フィルタリング - メニューに塩分がない場合
+  it("塩分フィルタリングのテスト - メニューに塩分がない場合", () => {
+    const mockMenusNoSalt: Menu[] = [
+      ...mockMenus,
+      { ...mockMenus[0], salt: undefined },
+    ];
+    const params: TorikiMenuParams = { saltMax: 1.5 };
+    const result = getFilteredMenus(mockMenusNoSalt, params);
+    expect(result).toEqual([]);
+  });
+
   // paramsが未定義の場合のテスト
   it("paramsが未定義の場合のテスト", () => {
     const result = getFilteredMenus(mockMenus);
