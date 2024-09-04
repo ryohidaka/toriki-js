@@ -28,14 +28,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryohidaka/toriki.git"
+    "url": "git+https://github.com/ryohidaka/toriki-js.git"
   },
   "author": "ryohidaka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryohidaka/toriki/issues"
+    "url": "https://github.com/ryohidaka/toriki-js/issues"
   },
-  "homepage": "https://github.com/ryohidaka/toriki#readme",
+  "homepage": "https://github.com/ryohidaka/toriki-js#readme",
   "devDependencies": {
     "@types/node": "^22.5.2",
     "@vitest/coverage-v8": "^2.0.5",

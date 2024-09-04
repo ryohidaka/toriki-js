@@ -1,8 +1,8 @@
 # toriki
 
 [![NPM Version](https://img.shields.io/npm/v/toriki?logo=npm)](https://www.npmjs.com/package/toriki)
-![build](https://github.com/ryohidaka/toriki/workflows/Build/badge.svg)
-[![codecov](https://codecov.io/gh/ryohidaka/toriki/graph/badge.svg?token=RHP9TB2F51)](https://codecov.io/gh/ryohidaka/toriki)
+![build](https://github.com/ryohidaka/toriki-js/workflows/Build/badge.svg)
+[![codecov](https://codecov.io/gh/ryohidaka/toriki-js/graph/badge.svg?token=RHP9TB2F51)](https://codecov.io/gh/ryohidaka/toriki-js)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
