@@ -35,3 +35,17 @@ export type TorikiMenuParams = {
   // 食塩相当量 (最大)
   saltMax?: number;
 };
+
+/**
+ * ランダムなメニューの組み合わせ
+ */
+export type RandomMenus = {
+  // 組み合わせ内のメニュー一覧
+  menus: Menu[];
+  // 食塩相当量の総額
+  totalSalt: number;
+  // エネルギーの総額
+  totalCalorie: number;
+  // 税込価格の総額
+  totalPriceWithTax: number;
+};

@@ -86,7 +86,7 @@ const randomMenus = toriki.random();
 
 #### レスポンス
 
-- `Menu[]`: メニューの配列
+- `RandomMenus`: ランダムなメニューの組み合わせオブジェクト。
 
 ## 型定義
 
@@ -111,6 +111,15 @@ const randomMenus = toriki.random();
 | `imageUrl` | string | 画像 URL         | `https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg` |
 | `calories` | number | エネルギー(kcal) | `231`                                                                      |
 | `salt`     | number | 食塩相当量(g)    | `1.9`                                                                      |
+
+### `RandomMenus`
+
+| フィールド          | 型     | 説明                       |
+| ------------------- | ------ | -------------------------- |
+| `menus`             | Menu[] | 組み合わせ内のメニュー一覧 |
+| `totalSalt`         | number | 食塩相当量の総額           |
+| `totalCalorie`      | number | エネルギーの総額           |
+| `totalPriceWithTax` | number | 税込価格の総額             |
 
 ## Link
 

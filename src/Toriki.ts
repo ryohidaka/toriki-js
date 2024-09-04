@@ -1,7 +1,7 @@
 import { PRICE_WITH_TAX } from "./constants";
 import { getFilteredMenus, getRandomMenus } from "./lib";
 import { MENUS } from "./menus";
-import { Menu, TorikiMenuParams } from "./types";
+import { Menu, RandomMenus, TorikiMenuParams } from "./types";
 
 /**
  * 鳥貴族のメニューを管理するクラス
@@ -55,7 +55,7 @@ export class Toriki {
     params?: TorikiMenuParams,
     count: number = 10,
     allowDuplicates = true,
-  ): Menu[] {
+  ): RandomMenus {
     const menus = this.all(params);
 
     return getRandomMenus(menus, count, allowDuplicates);
