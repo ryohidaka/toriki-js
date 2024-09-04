@@ -99,12 +99,14 @@ const randomMenus = toriki.random();
 
 ### `Menu`
 
-| フィールド | 型     | 説明        | サンプル                                                                   |
-| ---------- | ------ | ----------- | -------------------------------------------------------------------------- |
-| `id`       | number | メニュー ID | `101`                                                                      |
-| `name`     | string | メニュー名  | `もも貴族焼(たれ)`                                                         |
-| `category` | string | カテゴリ名  | `貴族焼`                                                                   |
-| `imageUrl` | string | 画像 URL    | `https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg` |
+| フィールド | 型     | 説明             | サンプル                                                                   |
+| ---------- | ------ | ---------------- | -------------------------------------------------------------------------- |
+| `id`       | number | メニュー ID      | `101`                                                                      |
+| `name`     | string | メニュー名       | `もも貴族焼(たれ)`                                                         |
+| `category` | string | カテゴリ名       | `貴族焼`                                                                   |
+| `imageUrl` | string | 画像 URL         | `https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg` |
+| `calories` | number | エネルギー(kcal) | `231`                                                                      |
+| `salt`     | number | 食塩相当量(g)    | `1.9`                                                                      |
 
 ## Link
 

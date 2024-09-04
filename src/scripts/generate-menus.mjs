@@ -13,6 +13,13 @@ async function fetchAndSaveJsonToTs() {
     const data = await response.json();
     const menus = objectToCamel(data.menus);
 
+    const formattedMenus = menus.map((menu) => {
+      return {
+        ...menu,
+        salt: menu.salt > 0 ? menu.salt : undefined,
+      };
+    });
+
     // ts-morphを使用してTypeScriptファイルを生成
     const project = new Project();
     const sourceFile = project.createSourceFile("src/menus.ts", "", {
@@ -38,7 +45,7 @@ async function fetchAndSaveJsonToTs() {
         {
           name: "MENUS",
           type: "Menu[]",
-          initializer: JSON.stringify(menus, null, 2).replace(
+          initializer: JSON.stringify(formattedMenus, null, 2).replace(
             /"(\w+)":/g,
             "$1:",
           ),

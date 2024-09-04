@@ -19,6 +19,8 @@ export function MenuTable({ params }: MenuTableProps) {
           <th scope="col">メニュー名</th>
           <th scope="col">カテゴリ名</th>
           <th scope="col">画像</th>
+          <th scope="col">エネルギー(kcal)</th>
+          <th scope="col">食塩相当量(g)</th>
         </tr>
       </thead>
       <tbody id="menu-table">
@@ -32,6 +34,8 @@ export function MenuTable({ params }: MenuTableProps) {
             <td>
               <img src="${menu.imageUrl}" alt="${menu.name}" width="100" />
             </td>
+            <td>${menu.calories}</td>
+            <td>${menu.salt ?? ""}</td>
           </tr>
         `,
           )

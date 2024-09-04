@@ -8,18 +8,22 @@ const mockMenus: Menu[] = [
     category: "貴族焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg",
+    calories: 231,
+    salt: 1.9,
   },
   {
     id: 2101,
     name: "ザ・プレミアム・モルツ",
     category: "ビール",
     imageUrl: "",
+    calories: 120,
   },
   {
     id: 4101,
     name: "ウーロン茶",
     category: "ソフトドリンク",
     imageUrl: "",
+    calories: 2,
   },
 ];
 

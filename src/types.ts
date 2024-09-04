@@ -12,6 +12,10 @@ export type Menu = {
   category: string;
   // 画像URL
   imageUrl?: string;
+  // エネルギー(kcal)
+  calories: number;
+  // 食塩相当量(g)
+  salt?: number;
 };
 
 /**

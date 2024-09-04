@@ -53,11 +53,13 @@ describe("Toriki", () => {
   it("IDに対応するメニューを返すこと", () => {
     const menu = toriki.getById(101);
     expect(menu).toEqual({
+      calories: 231,
       id: 101,
       name: "もも貴族焼(たれ)",
       category: "貴族焼",
       imageUrl:
         "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg",
+      salt: 1.9,
     });
   });
 

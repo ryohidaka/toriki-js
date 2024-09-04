@@ -9,6 +9,8 @@ export const MENUS: Menu[] = [
     category: "貴族焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg",
+    calories: 231,
+    salt: 1.9,
   },
   {
     id: 102,
@@ -16,6 +18,8 @@ export const MENUS: Menu[] = [
     category: "貴族焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_shio.jpg",
+    calories: 208,
+    salt: 1.8,
   },
   {
     id: 103,
@@ -23,6 +27,8 @@ export const MENUS: Menu[] = [
     category: "貴族焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_spice.jpg",
+    calories: 215,
+    salt: 4.5,
   },
   {
     id: 104,
@@ -30,6 +36,8 @@ export const MENUS: Menu[] = [
     category: "貴族焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/03/mune_kizokuyaki_tare.jpg",
+    calories: 165,
+    salt: 1.5,
   },
   {
     id: 105,
@@ -37,6 +45,8 @@ export const MENUS: Menu[] = [
     category: "貴族焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/03/mune_kizokuyaki_shio.jpg",
+    calories: 146,
+    salt: 1.7,
   },
   {
     id: 106,
@@ -44,6 +54,8 @@ export const MENUS: Menu[] = [
     category: "貴族焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/03/mune_kizokuyaki_spice.jpg",
+    calories: 152,
+    salt: 4.3,
   },
   {
     id: 201,
@@ -51,6 +63,8 @@ export const MENUS: Menu[] = [
     category: "塩焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_chikarakobu.jpg",
+    calories: 125,
+    salt: 0.9,
   },
   {
     id: 202,
@@ -58,6 +72,8 @@ export const MENUS: Menu[] = [
     category: "塩焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_tebasaki.jpg",
+    calories: 253,
+    salt: 0.9,
   },
   {
     id: 203,
@@ -65,6 +81,8 @@ export const MENUS: Menu[] = [
     category: "塩焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_sankaku.jpg",
+    calories: 219,
+    salt: 1.1,
   },
   {
     id: 204,
@@ -72,18 +90,24 @@ export const MENUS: Menu[] = [
     category: "塩焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_tsukune.jpg",
+    calories: 152,
+    salt: 1.1,
   },
   {
     id: 205,
     name: "ささみ塩焼 -わさび粗おろし添え-",
     category: "塩焼",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/shio_sasami.jpg",
+    calories: 75,
+    salt: 0.7,
   },
   {
     id: 206,
     name: "ハート（ハツ）塩",
     category: "塩焼",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/shio_heart.jpg",
+    calories: 105,
+    salt: 0.5,
   },
   {
     id: 207,
@@ -91,18 +115,24 @@ export const MENUS: Menu[] = [
     category: "塩焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_sunazuri.jpg",
+    calories: 49,
+    salt: 0.6,
   },
   {
     id: 208,
     name: "かわ塩",
     category: "塩焼",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/shio_kawa.jpg",
+    calories: 356,
+    salt: 2.1,
   },
   {
     id: 209,
     name: "やげんなんこつ",
     category: "塩焼",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/shio_yagen.jpg",
+    calories: 95,
+    salt: 1.2,
   },
   {
     id: 210,
@@ -110,12 +140,16 @@ export const MENUS: Menu[] = [
     category: "塩焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_nankotsu.jpg",
+    calories: 27,
+    salt: 1.2,
   },
   {
     id: 211,
     name: "せせり",
     category: "塩焼",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/shio_seseri.jpg",
+    calories: 170,
+    salt: 0.6,
   },
   {
     id: 301,
@@ -123,6 +157,8 @@ export const MENUS: Menu[] = [
     category: "たれ焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/tare_chikarakobu.jpg",
+    calories: 141,
+    salt: 0.9,
   },
   {
     id: 302,
@@ -130,18 +166,24 @@ export const MENUS: Menu[] = [
     category: "たれ焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/tare_tebasaki.jpg",
+    calories: 270,
+    salt: 1.6,
   },
   {
     id: 303,
     name: "みたれ（もも肉）",
     category: "たれ焼",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/tare_mi.jpg",
+    calories: 146,
+    salt: 1.1,
   },
   {
     id: 304,
     name: "きも（レバー）",
     category: "たれ焼",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/tare_kimo.jpg",
+    calories: 77,
+    salt: 1.2,
   },
   {
     id: 305,
@@ -149,6 +191,8 @@ export const MENUS: Menu[] = [
     category: "たれ焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/tare_tsukunecheese.jpg",
+    calories: 212,
+    salt: 1.8,
   },
   {
     id: 306,
@@ -156,18 +200,24 @@ export const MENUS: Menu[] = [
     category: "たれ焼",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/tare_tsukune.jpg",
+    calories: 171,
+    salt: 2,
   },
   {
     id: 307,
     name: "かわたれ",
     category: "たれ焼",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/tare_kawa.jpg",
+    calories: 390,
+    salt: 2.4,
   },
   {
     id: 308,
     name: "ハート（ハツ）たれ",
     category: "たれ焼",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/tare_heart.jpg",
+    calories: 111,
+    salt: 0.6,
   },
   {
     id: 401,
@@ -175,12 +225,16 @@ export const MENUS: Menu[] = [
     category: "串焼き",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_kimo_shiogomaabura.jpg",
+    calories: 208,
+    salt: 5.6,
   },
   {
     id: 402,
     name: "ピーマン肉詰 -ポン酢味-",
     category: "串焼き",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_piman.jpg",
+    calories: 76,
+    salt: 1.3,
   },
   {
     id: 403,
@@ -188,6 +242,8 @@ export const MENUS: Menu[] = [
     category: "串焼き",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_munementai.jpg",
+    calories: 131,
+    salt: 0.9,
   },
   {
     id: 404,
@@ -195,12 +251,16 @@ export const MENUS: Menu[] = [
     category: "串焼き",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_mochicheese.jpg",
+    calories: 119,
+    salt: 0.5,
   },
   {
     id: 405,
     name: "牛串焼 -果実とにんにくの旨味-",
     category: "串焼き",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_gyu.jpg",
+    calories: 127,
+    salt: 0.8,
   },
   {
     id: 406,
@@ -208,24 +268,32 @@ export const MENUS: Menu[] = [
     category: "串焼き",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_butabara.jpg",
+    calories: 166,
+    salt: 0.4,
   },
   {
     id: 501,
     name: "トリキのチャンジャ",
     category: "スピードメニュー",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/08/chanja.jpg",
+    calories: 27,
+    salt: 1.3,
   },
   {
     id: 502,
     name: "北海道産 蛸わさび",
     category: "スピードメニュー",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/08/takowasa.jpg",
+    calories: 50,
+    salt: 1.5,
   },
   {
     id: 503,
     name: "味付煮玉子",
     category: "スピードメニュー",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/08/nitamago.jpg",
+    calories: 157,
+    salt: 2.2,
   },
   {
     id: 504,
@@ -233,6 +301,8 @@ export const MENUS: Menu[] = [
     category: "スピードメニュー",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/oyadori_aburimayo.jpg",
+    calories: 182,
+    salt: 1.1,
   },
   {
     id: 505,
@@ -240,24 +310,32 @@ export const MENUS: Menu[] = [
     category: "スピードメニュー",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/shironegi_shiokonbu.jpg",
+    calories: 90,
+    salt: 1.5,
   },
   {
     id: 506,
     name: "ホルモンねぎ盛ポン酢",
     category: "スピードメニュー",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/hormone.jpg",
+    calories: 98,
+    salt: 1.1,
   },
   {
     id: 507,
     name: "国産枝豆",
     category: "スピードメニュー",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/edamame.jpg",
+    calories: 125,
+    salt: 0.6,
   },
   {
     id: 508,
     name: "キャベツ盛",
     category: "スピードメニュー",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/cabbagemori.jpg",
+    calories: 36,
+    salt: 3,
   },
   {
     id: 509,
@@ -265,6 +343,8 @@ export const MENUS: Menu[] = [
     category: "スピードメニュー",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/shiodare_kyuri.jpg",
+    calories: 52,
+    salt: 2.4,
   },
   {
     id: 510,
@@ -272,12 +352,16 @@ export const MENUS: Menu[] = [
     category: "スピードメニュー",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/02/hiyashi_tomato.jpg",
+    calories: 66,
+    salt: 0.1,
   },
   {
     id: 601,
     name: "トリキの唐揚",
     category: "逸品料理",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/karaage.jpg",
+    calories: 322,
+    salt: 3.4,
   },
   {
     id: 602,
@@ -285,6 +369,8 @@ export const MENUS: Menu[] = [
     category: "逸品料理",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/yamaimo_teppan.jpg",
+    calories: 128,
+    salt: 1.8,
   },
   {
     id: 603,
@@ -292,6 +378,8 @@ export const MENUS: Menu[] = [
     category: "逸品料理",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/02/wafu_toripotato_sarada.jpg",
+    calories: 335,
+    salt: 2.3,
   },
   {
     id: 604,
@@ -299,6 +387,8 @@ export const MENUS: Menu[] = [
     category: "逸品料理",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/potato_sarada.jpg",
+    calories: 378,
+    salt: 2.6,
   },
   {
     id: 605,
@@ -306,6 +396,8 @@ export const MENUS: Menu[] = [
     category: "逸品料理",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/08/french-fries.jpg",
+    calories: 359,
+    salt: 0.7,
   },
   {
     id: 606,
@@ -313,12 +405,16 @@ export const MENUS: Menu[] = [
     category: "逸品料理",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/chicken_namban.jpg",
+    calories: 490,
+    salt: 2.2,
   },
   {
     id: 607,
     name: "とり天 -梅肉ソース添え-",
     category: "逸品料理",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/toriten.jpg",
+    calories: 306,
+    salt: 2,
   },
   {
     id: 608,
@@ -326,6 +422,8 @@ export const MENUS: Menu[] = [
     category: "逸品料理",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/camembert_croquette.jpg",
+    calories: 257,
+    salt: 1.9,
   },
   {
     id: 609,
@@ -333,12 +431,16 @@ export const MENUS: Menu[] = [
     category: "逸品料理",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/nankotsu_karaage.jpg",
+    calories: 168,
+    salt: 1.9,
   },
   {
     id: 610,
     name: "鶏皮チップ",
     category: "逸品料理",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/torikawa.jpg",
+    calories: 380,
+    salt: 1.2,
   },
   {
     id: 701,
@@ -346,18 +448,24 @@ export const MENUS: Menu[] = [
     category: "ご飯もの",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/torikamameshi.jpg",
+    calories: 416,
+    salt: 3.6,
   },
   {
     id: 702,
     name: "とり白湯めん",
     category: "ご飯もの",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/08/toripaitan.jpg",
+    calories: 251,
+    salt: 7.3,
   },
   {
     id: 703,
     name: "とり雑炊",
     category: "ご飯もの",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/torizousui.jpg",
+    calories: 239,
+    salt: 5.4,
   },
   {
     id: 704,
@@ -365,12 +473,16 @@ export const MENUS: Menu[] = [
     category: "ご飯もの",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/tori_spice_don.jpg",
+    calories: 383,
+    salt: 3.5,
   },
   {
     id: 705,
     name: "ご飯セット -温玉添え-",
     category: "ご飯もの",
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/rice_set.jpg",
+    calories: 526,
+    salt: 3.1,
   },
   {
     id: 801,
@@ -378,6 +490,8 @@ export const MENUS: Menu[] = [
     category: "デザート",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/02/toriki_domu_ice_ichigo.jpg",
+    calories: 224,
+    salt: 0.1,
   },
   {
     id: 802,
@@ -385,6 +499,8 @@ export const MENUS: Menu[] = [
     category: "デザート",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/02/toriki_domu_ice_mitarashi.jpg",
+    calories: 218,
+    salt: 0.3,
   },
   {
     id: 803,
@@ -392,6 +508,8 @@ export const MENUS: Menu[] = [
     category: "デザート",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/08/chocolate-milk.jpg",
+    calories: 326,
+    salt: 0.4,
   },
   {
     id: 804,
@@ -399,6 +517,8 @@ export const MENUS: Menu[] = [
     category: "デザート",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/choco_parfait.jpg",
+    calories: 287,
+    salt: 0.3,
   },
   {
     id: 805,
@@ -406,276 +526,323 @@ export const MENUS: Menu[] = [
     category: "デザート",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2023/05/catalana_ice_cream.jpg",
+    calories: 238,
+    salt: 0.1,
   },
   {
     id: 2101,
     name: "ザ・プレミアム・モルツ",
     category: "ビール",
     imageUrl: "",
+    calories: 120,
   },
   {
     id: 2201,
     name: "メガレモンサワー",
     category: "メガ",
     imageUrl: "",
+    calories: 116,
   },
   {
     id: 2202,
     name: "メガハイボール（ジムビーム）",
     category: "メガ",
     imageUrl: "",
+    calories: 135,
   },
   {
     id: 2203,
     name: "メガ金麦 ※ビール系飲料",
     category: "メガ",
     imageUrl: "",
+    calories: 249,
   },
   {
     id: 2301,
     name: "男梅サワー",
     category: "チューハイ",
     imageUrl: "",
+    calories: 94,
   },
   {
     id: 2302,
     name: "カルピスチューハイ",
     category: "チューハイ",
     imageUrl: "",
+    calories: 205,
   },
   {
     id: 2401,
     name: "優しいレモンサワー",
     category: "レモンサワー",
     imageUrl: "",
+    calories: 85,
   },
   {
     id: 2402,
     name: "こだわり酒場のレモンサワー",
     category: "レモンサワー",
     imageUrl: "",
+    calories: 72,
   },
   {
     id: 2601,
     name: "角ハイボール",
     category: "ハイボール",
     imageUrl: "",
+    calories: 70,
   },
   {
     id: 2602,
     name: "知多ハイボール",
     category: "ハイボール",
     imageUrl: "",
+    calories: 68,
   },
   {
     id: 2603,
     name: "コーラハイ",
     category: "ハイボール",
     imageUrl: "",
+    calories: 129,
   },
   {
     id: 2604,
     name: "ジンジャーハイ",
     category: "ハイボール",
     imageUrl: "",
+    calories: 119,
   },
   {
     id: 2701,
     name: "緑茶ハイ",
     category: "お茶ハイ",
     imageUrl: "",
+    calories: 67,
   },
   {
     id: 2702,
     name: "ウーロンハイ",
     category: "お茶ハイ",
     imageUrl: "",
+    calories: 65,
   },
   {
     id: 2801,
     name: "翠ジンソーダ",
     category: "国産ジン",
     imageUrl: "",
+    calories: 68,
   },
   {
     id: 2802,
     name: "翠ジントニック",
     category: "国産ジン",
     imageUrl: "",
+    calories: 113,
   },
   {
     id: 2803,
     name: "翠ジンオレンジ",
     category: "国産ジン",
     imageUrl: "",
+    calories: 127,
   },
   {
     id: 2804,
     name: "翠ジンジンジャーエール",
     category: "国産ジン",
     imageUrl: "",
+    calories: 120,
   },
   {
     id: 2805,
     name: "翠ジンコーラ",
     category: "国産ジン",
     imageUrl: "",
+    calories: 130,
   },
   {
     id: 2901,
     name: "優しいカシスミルク割",
     category: "カクテル",
     imageUrl: "",
+    calories: 150,
   },
   {
     id: 2902,
     name: "優しいカシスオレンジ割",
     category: "カクテル",
     imageUrl: "",
+    calories: 132,
   },
   {
     id: 2903,
     name: "優しいレモンとカシス",
     category: "カクテル",
     imageUrl: "",
+    calories: 140,
   },
   {
     id: 3001,
     name: "優しいみかんのお酒オレンジ割",
     category: "果実酒",
     imageUrl: "",
+    calories: 117,
   },
   {
     id: 3101,
     name: "トリキホワイト",
     category: "ワイン",
     imageUrl: "",
+    calories: 131,
   },
   {
     id: 3102,
     name: "トリキレッド",
     category: "ワイン",
     imageUrl: "",
+    calories: 122,
   },
   {
     id: 3201,
     name: "大隅焼酎ソーダ",
     category: "焼酎",
     imageUrl: "",
+    calories: 129,
   },
   {
     id: 3202,
     name: "大隅（麦）",
     category: "焼酎",
     imageUrl: "",
+    calories: 129,
   },
   {
     id: 3203,
     name: "黒霧島（芋）",
     category: "焼酎",
     imageUrl: "",
+    calories: 128,
   },
   {
     id: 3301,
     name: "松竹梅 豪快 純米酒＜カップ酒＞",
     category: "日本酒",
     imageUrl: "",
+    calories: 181,
   },
   {
     id: 3401,
     name: "紀州の南高梅酒",
     category: "梅酒",
     imageUrl: "",
+    calories: 157,
   },
   {
     id: 3501,
     name: "オールフリー",
     category: "ノンアルコール",
     imageUrl: "",
+    calories: 0,
   },
   {
     id: 4101,
     name: "ウーロン茶",
     category: "ソフトドリンク",
     imageUrl: "",
+    calories: 2,
   },
   {
     id: 4102,
     name: "オレンジジュース",
     category: "ソフトドリンク",
     imageUrl: "",
+    calories: 107,
   },
   {
     id: 4103,
     name: "ジンジャーエール",
     category: "ソフトドリンク",
     imageUrl: "",
+    calories: 94,
   },
   {
     id: 4104,
     name: "レモネード",
     category: "ソフトドリンク",
     imageUrl: "",
+    calories: 121,
   },
   {
     id: 4105,
     name: "レモンスカッシュ",
     category: "ソフトドリンク",
     imageUrl: "",
+    calories: 121,
   },
   {
     id: 4106,
     name: "コーラ",
     category: "ソフトドリンク",
     imageUrl: "",
+    calories: 113,
   },
   {
     id: 4107,
     name: "カルピスウォーター",
     category: "ソフトドリンク",
     imageUrl: "",
+    calories: 211,
   },
   {
     id: 4108,
     name: "ホットウーロン茶",
     category: "ソフトドリンク",
     imageUrl: "",
+    calories: 2,
   },
   {
     id: 4201,
     name: "ミックスジュース",
     category: "クラフトジュース",
     imageUrl: "",
+    calories: 219,
   },
   {
     id: 4202,
     name: "大人のホットジンジャー",
     category: "クラフトジュース",
     imageUrl: "",
+    calories: 141,
   },
   {
     id: 4203,
     name: "大人のジンジャーソーダ",
     category: "クラフトジュース",
     imageUrl: "",
+    calories: 141,
   },
   {
     id: 4204,
     name: "やさしい苺とミルク",
     category: "クラフトジュース",
     imageUrl: "",
+    calories: 164,
   },
   {
     id: 4301,
     name: "アイスコーヒー",
     category: "コーヒー",
     imageUrl: "",
+    calories: 47,
   },
   {
     id: 4302,
     name: "ホットコーヒー",
     category: "コーヒー",
     imageUrl: "",
+    calories: 39,
   },
   {
     id: 9901,
@@ -683,6 +850,8 @@ export const MENUS: Menu[] = [
     category: "数量限定",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/07/karaagre_benishouga.jpg",
+    calories: 362,
+    salt: 2.2,
   },
   {
     id: 9902,
@@ -690,6 +859,8 @@ export const MENUS: Menu[] = [
     category: "数量限定",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/07/tikarakobu_kurokoshou.jpg",
+    calories: 211,
+    salt: 2.3,
   },
   {
     id: 9903,
@@ -697,6 +868,8 @@ export const MENUS: Menu[] = [
     category: "数量限定",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/07/dekaisiomusubi.jpg",
+    calories: 534,
+    salt: 4.1,
   },
   {
     id: 9904,
@@ -704,6 +877,7 @@ export const MENUS: Menu[] = [
     category: "数量限定",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/07/osumiwanochuhai.jpg",
+    calories: 73,
   },
   {
     id: 9905,
@@ -711,5 +885,6 @@ export const MENUS: Menu[] = [
     category: "数量限定",
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/07/zakuroberrysoda.jpg",
+    calories: 156,
   },
 ];
