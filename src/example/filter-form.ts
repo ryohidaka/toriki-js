@@ -38,6 +38,40 @@ export function FilterForm({ onFilter }: FilterFormProps): string {
         </div>
       </div>
 
+      <div class="row mb-3">
+        <div class="col">
+          <label for="calorieMin" class="form-label">カロリー最小</label>
+          <div class="input-group mb-3">
+            <input id="calorieMin" type="number" class="form-control" placeholder="0" />
+            <span class="input-group-text">kcal</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <label for="calorieMax" class="form-label">カロリー最大</label>
+          <div class="input-group mb-3">
+            <input id="calorieMax" type="number" class="form-control" placeholder="0" />
+            <span class="input-group-text">kcal</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <label for="saltMin" class="form-label">塩分最小</label>
+          <div class="input-group mb-3">
+            <input id="saltMin" type="number" class="form-control" placeholder="0" />
+            <span class="input-group-text">g</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <label for="saltMax" class="form-label">塩分最大</label>
+          <div class="input-group mb-3">
+            <input id="saltMax" type="number" class="form-control" placeholder="0" />
+            <span class="input-group-text">g</span>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <button id="filter" type="button" class="btn btn-primary">フィルターを適用</button>
       </div>
@@ -66,10 +100,26 @@ export function FilterForm({ onFilter }: FilterFormProps): string {
 
     const name =
       document.querySelector<HTMLInputElement>("#name")?.value || undefined;
+    const caloriesMin =
+      document.querySelector<HTMLInputElement>("#calorieMin")?.valueAsNumber ||
+      undefined;
+    const caloriesMax =
+      document.querySelector<HTMLInputElement>("#calorieMax")?.valueAsNumber ||
+      undefined;
+    const saltMin =
+      document.querySelector<HTMLInputElement>("#saltMin")?.valueAsNumber ||
+      undefined;
+    const saltMax =
+      document.querySelector<HTMLInputElement>("#saltMax")?.valueAsNumber ||
+      undefined;
 
     const params: TorikiMenuParams = {
       categories,
       name,
+      caloriesMin,
+      caloriesMax,
+      saltMin,
+      saltMax,
     };
     onFilter(params);
   }
