@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.0](https://github.com/ryohidaka/toriki-js/compare/v0.1.0...v0.2.0) (2024-09-04)
+
+
+### Features
+
+* Menuにエネルギーと食塩相当量を追加 ([3298d1b](https://github.com/ryohidaka/toriki-js/commit/3298d1b169bf8ba521d340a05c47088a1127aa23))
+* エネルギーと食塩相当量の絞り込み処理を追加 ([72ced47](https://github.com/ryohidaka/toriki-js/commit/72ced47f8c4adcde1893024b217855b21a0f9135))
+* サンプルページのエネルギーと食塩相当量の絞り込み処理を追加 ([aef2e44](https://github.com/ryohidaka/toriki-js/commit/aef2e44b10f1bdf2cd2df77cf2cbe08b365f790d))
+
 ## 0.1.0 (2024-09-04)
 
 
