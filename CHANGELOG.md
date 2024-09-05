@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/ryohidaka/toriki-js/compare/v0.3.0...v0.4.0) (2024-09-05)
+
+
+### Features
+
+* 数量限定メニューを除外するフラグを追加 ([4807846](https://github.com/ryohidaka/toriki-js/commit/480784637948d5b73412aa27388f17f5c2f13f92))
+
 ## [0.3.0](https://github.com/ryohidaka/toriki-js/compare/v0.2.0...v0.3.0) (2024-09-04)
 
 
