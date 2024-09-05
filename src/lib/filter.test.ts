@@ -25,6 +25,15 @@ const mockMenus: Menu[] = [
     imageUrl: "",
     calories: 2,
   },
+  {
+    id: 9901,
+    name: "抜刀唐揚 ～紅生姜編～",
+    category: "数量限定",
+    imageUrl:
+      "https://torikizoku.co.jp/assets/uploads/2024/07/karaagre_benishouga.jpg",
+    calories: 362,
+    salt: 2.2,
+  },
 ];
 
 describe("getFilteredMenus", () => {
@@ -53,7 +62,7 @@ describe("getFilteredMenus", () => {
   it("カロリーフィルタリングのテスト", () => {
     const params: TorikiMenuParams = { caloriesMin: 200 };
     const result = getFilteredMenus(mockMenus, params);
-    expect(result).toEqual([mockMenus[0]]);
+    expect(result).toEqual([mockMenus[0], mockMenus[3]]);
   });
 
   // 塩分フィルタリング
@@ -72,6 +81,13 @@ describe("getFilteredMenus", () => {
     const params: TorikiMenuParams = { saltMax: 1.5 };
     const result = getFilteredMenus(mockMenusNoSalt, params);
     expect(result).toEqual([]);
+  });
+
+  // 数量限定メニューの除外
+  it("数量限定メニューの除外", () => {
+    const params: TorikiMenuParams = { excludedLimitedQuantity: true };
+    const result = getFilteredMenus(mockMenus, params);
+    expect(result).toEqual([mockMenus[0], mockMenus[1], mockMenus[2]]);
   });
 
   // paramsが未定義の場合のテスト

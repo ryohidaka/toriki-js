@@ -92,14 +92,15 @@ const randomMenus = toriki.random();
 
 ### `TorikiMenuParams`
 
-| パラメータ    | 型       | 説明              |
-| ------------- | -------- | ----------------- |
-| `categories`  | string[] | カテゴリ名        |
-| `name`        | string   | メニュー名        |
-| `caloriesMin` | number   | エネルギー (最小) |
-| `caloriesMax` | number   | エネルギー (最大) |
-| `saltMin`     | number   | 食塩相当量 (最小) |
-| `saltMax`     | number   | 食塩相当量 (最大) |
+| パラメータ                | 型       | 説明                             |
+| ------------------------- | -------- | -------------------------------- |
+| `categories`              | string[] | カテゴリ名                       |
+| `name`                    | string   | メニュー名                       |
+| `caloriesMin`             | number   | エネルギー (最小)                |
+| `caloriesMax`             | number   | エネルギー (最大)                |
+| `saltMin`                 | number   | 食塩相当量 (最小)                |
+| `saltMax`                 | number   | 食塩相当量 (最大)                |
+| `excludedLimitedQuantity` | boolean  | 数量限定メニューを除外するフラグ |
 
 ### `Menu`
 

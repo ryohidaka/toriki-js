@@ -72,6 +72,15 @@ export function FilterForm({ onFilter }: FilterFormProps): string {
         </div>
       </div>
 
+      <div class="row mb-3">
+        <div class="col">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="excludedLimitedQuantity">
+            <label class="form-check-label" for="excludedLimitedQuantity">数量限定メニューを除く</label>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <button id="filter" type="button" class="btn btn-primary">フィルターを適用</button>
       </div>
@@ -112,6 +121,9 @@ export function FilterForm({ onFilter }: FilterFormProps): string {
     const saltMax =
       document.querySelector<HTMLInputElement>("#saltMax")?.valueAsNumber ||
       undefined;
+    const excludedLimitedQuantity =
+      document.querySelector<HTMLInputElement>("#excludedLimitedQuantity")
+        ?.checked || false;
 
     const params: TorikiMenuParams = {
       categories,
@@ -120,6 +132,7 @@ export function FilterForm({ onFilter }: FilterFormProps): string {
       caloriesMax,
       saltMin,
       saltMax,
+      excludedLimitedQuantity,
     };
     onFilter(params);
   }

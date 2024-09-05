@@ -13,14 +13,22 @@ export function getFilteredMenus(
 ): Menu[] {
   if (!params) return menus;
 
-  const { categories, name, caloriesMin, caloriesMax, saltMin, saltMax } =
-    params;
+  const {
+    categories,
+    name,
+    caloriesMin,
+    caloriesMax,
+    saltMin,
+    saltMax,
+    excludedLimitedQuantity,
+  } = params;
 
   return menus
     .filter((menu) => filterByCategories(menu, categories))
     .filter((menu) => filterByName(menu, name))
     .filter((menu) => filterByCalories(menu, caloriesMin, caloriesMax))
-    .filter((menu) => filterBySalt(menu, saltMin, saltMax));
+    .filter((menu) => filterBySalt(menu, saltMin, saltMax))
+    .filter((menu) => !excludedLimitedQuantity || menu.category !== "数量限定");
 }
 
 /**

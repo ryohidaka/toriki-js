@@ -34,6 +34,8 @@ export type TorikiMenuParams = {
   saltMin?: number;
   // 食塩相当量 (最大)
   saltMax?: number;
+  // 数量限定メニューを除外するフラグ
+  excludedLimitedQuantity?: boolean;
 };
 
 /**
