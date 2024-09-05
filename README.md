@@ -101,6 +101,7 @@ const randomMenus = toriki.random();
 | `saltMin`                 | number   | 食塩相当量 (最小)                |
 | `saltMax`                 | number   | 食塩相当量 (最大)                |
 | `excludedLimitedQuantity` | boolean  | 数量限定メニューを除外するフラグ |
+| `excludeAlcohol`          | boolean  | アルコール類を除外するフラグ     |
 
 ### `Menu`
 

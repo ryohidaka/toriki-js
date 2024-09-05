@@ -21,6 +21,7 @@ export function getFilteredMenus(
     saltMin,
     saltMax,
     excludedLimitedQuantity,
+    excludeAlcohol,
   } = params;
 
   return menus
@@ -28,7 +29,8 @@ export function getFilteredMenus(
     .filter((menu) => filterByName(menu, name))
     .filter((menu) => filterByCalories(menu, caloriesMin, caloriesMax))
     .filter((menu) => filterBySalt(menu, saltMin, saltMax))
-    .filter((menu) => !excludedLimitedQuantity || menu.category !== "数量限定");
+    .filter((menu) => !excludedLimitedQuantity || menu.category !== "数量限定")
+    .filter((menu) => !excludeAlcohol || !menu.isAlcohol);
 }
 
 /**

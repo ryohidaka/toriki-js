@@ -98,6 +98,13 @@ describe("getFilteredMenus", () => {
     expect(result).toEqual([mockMenus[0], mockMenus[1], mockMenus[2]]);
   });
 
+  // アルコールメニューの除外
+  it("アルコールメニューの除外", () => {
+    const params: TorikiMenuParams = { excludeAlcohol: true };
+    const result = getFilteredMenus(mockMenus, params);
+    expect(result).toEqual([mockMenus[0], mockMenus[2], mockMenus[3]]);
+  });
+
   // paramsが未定義の場合のテスト
   it("paramsが未定義の場合のテスト", () => {
     const result = getFilteredMenus(mockMenus);
