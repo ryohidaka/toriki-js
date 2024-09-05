@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.0](https://github.com/ryohidaka/toriki-js/compare/v0.4.0...v0.5.0) (2024-09-05)
+
+
+### Features
+
+* `isDrink`, `isAlcohol`を追加 ([04ef906](https://github.com/ryohidaka/toriki-js/commit/04ef906f0b9f8f8daf4f04b5cab55c731bde8523))
+* アルコール以外のメニューの絞り込み処理を追加 ([882a676](https://github.com/ryohidaka/toriki-js/commit/882a676fc3a549ace9387b40ac4f6edc2c3280f3))
+
 ## [0.4.0](https://github.com/ryohidaka/toriki-js/compare/v0.3.0...v0.4.0) (2024-09-05)
 
 
