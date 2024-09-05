@@ -10,6 +10,8 @@ const mockMenus: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg",
     calories: 231,
     salt: 1.9,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 2101,
@@ -17,6 +19,8 @@ const mockMenus: Menu[] = [
     category: "ビール",
     imageUrl: "",
     calories: 120,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 4101,
@@ -24,6 +28,8 @@ const mockMenus: Menu[] = [
     category: "ソフトドリンク",
     imageUrl: "",
     calories: 2,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 9901,
@@ -33,6 +39,8 @@ const mockMenus: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/07/karaagre_benishouga.jpg",
     calories: 362,
     salt: 2.2,
+    isDrink: false,
+    isAlcohol: false,
   },
 ];
 

@@ -11,6 +11,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg",
     calories: 231,
     salt: 1.9,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 102,
@@ -20,6 +22,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_shio.jpg",
     calories: 208,
     salt: 1.8,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 103,
@@ -29,6 +33,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_spice.jpg",
     calories: 215,
     salt: 4.5,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 104,
@@ -38,6 +44,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/03/mune_kizokuyaki_tare.jpg",
     calories: 165,
     salt: 1.5,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 105,
@@ -47,6 +55,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/03/mune_kizokuyaki_shio.jpg",
     calories: 146,
     salt: 1.7,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 106,
@@ -56,6 +66,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/03/mune_kizokuyaki_spice.jpg",
     calories: 152,
     salt: 4.3,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 201,
@@ -65,6 +77,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_chikarakobu.jpg",
     calories: 125,
     salt: 0.9,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 202,
@@ -74,6 +88,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_tebasaki.jpg",
     calories: 253,
     salt: 0.9,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 203,
@@ -83,6 +99,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_sankaku.jpg",
     calories: 219,
     salt: 1.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 204,
@@ -92,6 +110,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_tsukune.jpg",
     calories: 152,
     salt: 1.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 205,
@@ -100,6 +120,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/shio_sasami.jpg",
     calories: 75,
     salt: 0.7,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 206,
@@ -108,6 +130,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/shio_heart.jpg",
     calories: 105,
     salt: 0.5,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 207,
@@ -117,6 +141,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_sunazuri.jpg",
     calories: 49,
     salt: 0.6,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 208,
@@ -125,6 +151,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/shio_kawa.jpg",
     calories: 356,
     salt: 2.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 209,
@@ -133,6 +161,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/shio_yagen.jpg",
     calories: 95,
     salt: 1.2,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 210,
@@ -142,6 +172,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/shio_nankotsu.jpg",
     calories: 27,
     salt: 1.2,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 211,
@@ -150,6 +182,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/shio_seseri.jpg",
     calories: 170,
     salt: 0.6,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 301,
@@ -159,6 +193,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/tare_chikarakobu.jpg",
     calories: 141,
     salt: 0.9,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 302,
@@ -168,6 +204,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/tare_tebasaki.jpg",
     calories: 270,
     salt: 1.6,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 303,
@@ -176,6 +214,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/tare_mi.jpg",
     calories: 146,
     salt: 1.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 304,
@@ -184,6 +224,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/tare_kimo.jpg",
     calories: 77,
     salt: 1.2,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 305,
@@ -193,6 +235,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/tare_tsukunecheese.jpg",
     calories: 212,
     salt: 1.8,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 306,
@@ -202,6 +246,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/tare_tsukune.jpg",
     calories: 171,
     salt: 2,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 307,
@@ -210,6 +256,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/tare_kawa.jpg",
     calories: 390,
     salt: 2.4,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 308,
@@ -218,6 +266,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/tare_heart.jpg",
     calories: 111,
     salt: 0.6,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 401,
@@ -227,6 +277,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_kimo_shiogomaabura.jpg",
     calories: 208,
     salt: 5.6,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 402,
@@ -235,6 +287,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_piman.jpg",
     calories: 76,
     salt: 1.3,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 403,
@@ -244,6 +298,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_munementai.jpg",
     calories: 131,
     salt: 0.9,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 404,
@@ -253,6 +309,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_mochicheese.jpg",
     calories: 119,
     salt: 0.5,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 405,
@@ -261,6 +319,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_gyu.jpg",
     calories: 127,
     salt: 0.8,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 406,
@@ -270,6 +330,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/kushi_butabara.jpg",
     calories: 166,
     salt: 0.4,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 501,
@@ -278,6 +340,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/08/chanja.jpg",
     calories: 27,
     salt: 1.3,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 502,
@@ -286,6 +350,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/08/takowasa.jpg",
     calories: 50,
     salt: 1.5,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 503,
@@ -294,6 +360,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/08/nitamago.jpg",
     calories: 157,
     salt: 2.2,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 504,
@@ -303,6 +371,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/oyadori_aburimayo.jpg",
     calories: 182,
     salt: 1.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 505,
@@ -312,6 +382,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/shironegi_shiokonbu.jpg",
     calories: 90,
     salt: 1.5,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 506,
@@ -320,6 +392,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/hormone.jpg",
     calories: 98,
     salt: 1.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 507,
@@ -328,6 +402,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/edamame.jpg",
     calories: 125,
     salt: 0.6,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 508,
@@ -336,6 +412,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/cabbagemori.jpg",
     calories: 36,
     salt: 3,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 509,
@@ -345,6 +423,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/shiodare_kyuri.jpg",
     calories: 52,
     salt: 2.4,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 510,
@@ -354,6 +434,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/02/hiyashi_tomato.jpg",
     calories: 66,
     salt: 0.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 601,
@@ -362,6 +444,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/karaage.jpg",
     calories: 322,
     salt: 3.4,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 602,
@@ -371,6 +455,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/yamaimo_teppan.jpg",
     calories: 128,
     salt: 1.8,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 603,
@@ -380,6 +466,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/02/wafu_toripotato_sarada.jpg",
     calories: 335,
     salt: 2.3,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 604,
@@ -389,6 +477,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/potato_sarada.jpg",
     calories: 378,
     salt: 2.6,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 605,
@@ -398,6 +488,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/08/french-fries.jpg",
     calories: 359,
     salt: 0.7,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 606,
@@ -407,6 +499,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/chicken_namban.jpg",
     calories: 490,
     salt: 2.2,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 607,
@@ -415,6 +509,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/toriten.jpg",
     calories: 306,
     salt: 2,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 608,
@@ -424,6 +520,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/camembert_croquette.jpg",
     calories: 257,
     salt: 1.9,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 609,
@@ -433,6 +531,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/nankotsu_karaage.jpg",
     calories: 168,
     salt: 1.9,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 610,
@@ -441,6 +541,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/torikawa.jpg",
     calories: 380,
     salt: 1.2,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 701,
@@ -450,6 +552,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/torikamameshi.jpg",
     calories: 416,
     salt: 3.6,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 702,
@@ -458,6 +562,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/08/toripaitan.jpg",
     calories: 251,
     salt: 7.3,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 703,
@@ -466,6 +572,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/torizousui.jpg",
     calories: 239,
     salt: 5.4,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 704,
@@ -475,6 +583,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/tori_spice_don.jpg",
     calories: 383,
     salt: 3.5,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 705,
@@ -483,6 +593,8 @@ export const MENUS: Menu[] = [
     imageUrl: "https://torikizoku.co.jp/assets/uploads/2023/05/rice_set.jpg",
     calories: 526,
     salt: 3.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 801,
@@ -492,6 +604,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/02/toriki_domu_ice_ichigo.jpg",
     calories: 224,
     salt: 0.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 802,
@@ -501,6 +615,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/02/toriki_domu_ice_mitarashi.jpg",
     calories: 218,
     salt: 0.3,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 803,
@@ -510,6 +626,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/08/chocolate-milk.jpg",
     calories: 326,
     salt: 0.4,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 804,
@@ -519,6 +637,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/choco_parfait.jpg",
     calories: 287,
     salt: 0.3,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 805,
@@ -528,6 +648,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2023/05/catalana_ice_cream.jpg",
     calories: 238,
     salt: 0.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 2101,
@@ -535,6 +657,8 @@ export const MENUS: Menu[] = [
     category: "ビール",
     imageUrl: "",
     calories: 120,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2201,
@@ -542,6 +666,8 @@ export const MENUS: Menu[] = [
     category: "メガ",
     imageUrl: "",
     calories: 116,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2202,
@@ -549,6 +675,8 @@ export const MENUS: Menu[] = [
     category: "メガ",
     imageUrl: "",
     calories: 135,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2203,
@@ -556,6 +684,8 @@ export const MENUS: Menu[] = [
     category: "メガ",
     imageUrl: "",
     calories: 249,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2301,
@@ -563,6 +693,8 @@ export const MENUS: Menu[] = [
     category: "チューハイ",
     imageUrl: "",
     calories: 94,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2302,
@@ -570,6 +702,8 @@ export const MENUS: Menu[] = [
     category: "チューハイ",
     imageUrl: "",
     calories: 205,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2401,
@@ -577,6 +711,8 @@ export const MENUS: Menu[] = [
     category: "レモンサワー",
     imageUrl: "",
     calories: 85,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2402,
@@ -584,6 +720,8 @@ export const MENUS: Menu[] = [
     category: "レモンサワー",
     imageUrl: "",
     calories: 72,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2601,
@@ -591,6 +729,8 @@ export const MENUS: Menu[] = [
     category: "ハイボール",
     imageUrl: "",
     calories: 70,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2602,
@@ -598,6 +738,8 @@ export const MENUS: Menu[] = [
     category: "ハイボール",
     imageUrl: "",
     calories: 68,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2603,
@@ -605,6 +747,8 @@ export const MENUS: Menu[] = [
     category: "ハイボール",
     imageUrl: "",
     calories: 129,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2604,
@@ -612,6 +756,8 @@ export const MENUS: Menu[] = [
     category: "ハイボール",
     imageUrl: "",
     calories: 119,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2701,
@@ -619,6 +765,8 @@ export const MENUS: Menu[] = [
     category: "お茶ハイ",
     imageUrl: "",
     calories: 67,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2702,
@@ -626,6 +774,8 @@ export const MENUS: Menu[] = [
     category: "お茶ハイ",
     imageUrl: "",
     calories: 65,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2801,
@@ -633,6 +783,8 @@ export const MENUS: Menu[] = [
     category: "国産ジン",
     imageUrl: "",
     calories: 68,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2802,
@@ -640,6 +792,8 @@ export const MENUS: Menu[] = [
     category: "国産ジン",
     imageUrl: "",
     calories: 113,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2803,
@@ -647,6 +801,8 @@ export const MENUS: Menu[] = [
     category: "国産ジン",
     imageUrl: "",
     calories: 127,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2804,
@@ -654,6 +810,8 @@ export const MENUS: Menu[] = [
     category: "国産ジン",
     imageUrl: "",
     calories: 120,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2805,
@@ -661,6 +819,8 @@ export const MENUS: Menu[] = [
     category: "国産ジン",
     imageUrl: "",
     calories: 130,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2901,
@@ -668,6 +828,8 @@ export const MENUS: Menu[] = [
     category: "カクテル",
     imageUrl: "",
     calories: 150,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2902,
@@ -675,6 +837,8 @@ export const MENUS: Menu[] = [
     category: "カクテル",
     imageUrl: "",
     calories: 132,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 2903,
@@ -682,6 +846,8 @@ export const MENUS: Menu[] = [
     category: "カクテル",
     imageUrl: "",
     calories: 140,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 3001,
@@ -689,6 +855,8 @@ export const MENUS: Menu[] = [
     category: "果実酒",
     imageUrl: "",
     calories: 117,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 3101,
@@ -696,6 +864,8 @@ export const MENUS: Menu[] = [
     category: "ワイン",
     imageUrl: "",
     calories: 131,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 3102,
@@ -703,6 +873,8 @@ export const MENUS: Menu[] = [
     category: "ワイン",
     imageUrl: "",
     calories: 122,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 3201,
@@ -710,6 +882,8 @@ export const MENUS: Menu[] = [
     category: "焼酎",
     imageUrl: "",
     calories: 129,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 3202,
@@ -717,6 +891,8 @@ export const MENUS: Menu[] = [
     category: "焼酎",
     imageUrl: "",
     calories: 129,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 3203,
@@ -724,6 +900,8 @@ export const MENUS: Menu[] = [
     category: "焼酎",
     imageUrl: "",
     calories: 128,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 3301,
@@ -731,6 +909,8 @@ export const MENUS: Menu[] = [
     category: "日本酒",
     imageUrl: "",
     calories: 181,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 3401,
@@ -738,6 +918,8 @@ export const MENUS: Menu[] = [
     category: "梅酒",
     imageUrl: "",
     calories: 157,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 3501,
@@ -745,6 +927,8 @@ export const MENUS: Menu[] = [
     category: "ノンアルコール",
     imageUrl: "",
     calories: 0,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4101,
@@ -752,6 +936,8 @@ export const MENUS: Menu[] = [
     category: "ソフトドリンク",
     imageUrl: "",
     calories: 2,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4102,
@@ -759,6 +945,8 @@ export const MENUS: Menu[] = [
     category: "ソフトドリンク",
     imageUrl: "",
     calories: 107,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4103,
@@ -766,6 +954,8 @@ export const MENUS: Menu[] = [
     category: "ソフトドリンク",
     imageUrl: "",
     calories: 94,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4104,
@@ -773,6 +963,8 @@ export const MENUS: Menu[] = [
     category: "ソフトドリンク",
     imageUrl: "",
     calories: 121,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4105,
@@ -780,6 +972,8 @@ export const MENUS: Menu[] = [
     category: "ソフトドリンク",
     imageUrl: "",
     calories: 121,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4106,
@@ -787,6 +981,8 @@ export const MENUS: Menu[] = [
     category: "ソフトドリンク",
     imageUrl: "",
     calories: 113,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4107,
@@ -794,6 +990,8 @@ export const MENUS: Menu[] = [
     category: "ソフトドリンク",
     imageUrl: "",
     calories: 211,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4108,
@@ -801,6 +999,8 @@ export const MENUS: Menu[] = [
     category: "ソフトドリンク",
     imageUrl: "",
     calories: 2,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4201,
@@ -808,6 +1008,8 @@ export const MENUS: Menu[] = [
     category: "クラフトジュース",
     imageUrl: "",
     calories: 219,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4202,
@@ -815,6 +1017,8 @@ export const MENUS: Menu[] = [
     category: "クラフトジュース",
     imageUrl: "",
     calories: 141,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4203,
@@ -822,6 +1026,8 @@ export const MENUS: Menu[] = [
     category: "クラフトジュース",
     imageUrl: "",
     calories: 141,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4204,
@@ -829,6 +1035,8 @@ export const MENUS: Menu[] = [
     category: "クラフトジュース",
     imageUrl: "",
     calories: 164,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4301,
@@ -836,6 +1044,8 @@ export const MENUS: Menu[] = [
     category: "コーヒー",
     imageUrl: "",
     calories: 47,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 4302,
@@ -843,6 +1053,8 @@ export const MENUS: Menu[] = [
     category: "コーヒー",
     imageUrl: "",
     calories: 39,
+    isDrink: true,
+    isAlcohol: false,
   },
   {
     id: 9901,
@@ -852,6 +1064,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/07/karaagre_benishouga.jpg",
     calories: 362,
     salt: 2.2,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 9902,
@@ -861,6 +1075,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/07/tikarakobu_kurokoshou.jpg",
     calories: 211,
     salt: 2.3,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 9903,
@@ -870,6 +1086,8 @@ export const MENUS: Menu[] = [
       "https://torikizoku.co.jp/assets/uploads/2024/07/dekaisiomusubi.jpg",
     calories: 534,
     salt: 4.1,
+    isDrink: false,
+    isAlcohol: false,
   },
   {
     id: 9904,
@@ -878,6 +1096,8 @@ export const MENUS: Menu[] = [
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/07/osumiwanochuhai.jpg",
     calories: 73,
+    isDrink: true,
+    isAlcohol: true,
   },
   {
     id: 9905,
@@ -886,5 +1106,7 @@ export const MENUS: Menu[] = [
     imageUrl:
       "https://torikizoku.co.jp/assets/uploads/2024/07/zakuroberrysoda.jpg",
     calories: 156,
+    isDrink: true,
+    isAlcohol: false,
   },
 ];

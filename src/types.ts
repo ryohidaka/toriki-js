@@ -16,6 +16,10 @@ export type Menu = {
   calories: number;
   // 食塩相当量(g)
   salt?: number;
+  // ドリンクフラグ
+  isDrink: boolean;
+  // アルコールフラグ
+  isAlcohol: boolean;
 };
 
 /**
@@ -36,6 +40,8 @@ export type TorikiMenuParams = {
   saltMax?: number;
   // 数量限定メニューを除外するフラグ
   excludedLimitedQuantity?: boolean;
+  // アルコール類を除外するフラグ
+  excludeAlcohol?: boolean;
 };
 
 /**

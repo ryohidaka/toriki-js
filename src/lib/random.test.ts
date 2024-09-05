@@ -13,6 +13,8 @@ describe("getRandomMenus", () => {
         "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg",
       calories: 231,
       salt: 1.9,
+      isDrink: false,
+      isAlcohol: false,
     },
     {
       id: 102,
@@ -22,6 +24,8 @@ describe("getRandomMenus", () => {
         "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_shio.jpg",
       calories: 208,
       salt: 1.8,
+      isDrink: false,
+      isAlcohol: false,
     },
     {
       id: 103,
@@ -31,6 +35,8 @@ describe("getRandomMenus", () => {
         "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_spice.jpg",
       calories: 215,
       salt: 4.5,
+      isDrink: false,
+      isAlcohol: false,
     },
     {
       id: 104,
@@ -40,6 +46,8 @@ describe("getRandomMenus", () => {
         "https://torikizoku.co.jp/assets/uploads/2024/03/mune_kizokuyaki_tare.jpg",
       calories: 165,
       salt: 1.5,
+      isDrink: false,
+      isAlcohol: false,
     },
     {
       id: 105,
@@ -49,6 +57,8 @@ describe("getRandomMenus", () => {
         "https://torikizoku.co.jp/assets/uploads/2024/03/mune_kizokuyaki_shio.jpg",
       calories: 146,
       salt: 1.7,
+      isDrink: false,
+      isAlcohol: false,
     },
   ];
 

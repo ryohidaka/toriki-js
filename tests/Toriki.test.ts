@@ -60,6 +60,8 @@ describe("Toriki", () => {
       imageUrl:
         "https://torikizoku.co.jp/assets/uploads/2024/03/momo_kizokuyaki_tare.jpg",
       salt: 1.9,
+      isAlcohol: false,
+      isDrink: false,
     });
   });
 
